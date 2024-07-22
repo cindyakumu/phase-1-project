@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>MENU MASTER</h1>
+    <h2 id="h2">Bueno Menus</h2>
+    <div id="menu-list"></div>
+    <div class="menu-container">
+        <div id="breakfast-details" class="menu-details"></div>
+        <div id="lunch-details" class="menu-details"></div>
+        <div id="dinner-details" class="menu-details"></div>
+        <div id="dessert-details" class="menu-details"></div>
+        <div id="drinks-details" class="menu-details"></div>
+        <button id="back-to-menu-button" class="back-button">Back to Menu</button>
+    </div>
+    <!-- Add Item Button -->
+    <button id="add-item-button">Add Meal</button>
+    <!-- Add Item Container -->
+    <div class="add-item-container">
+        <input type="text" id="meal-name" placeholder="Meal Name">
+        <input type="text" id="meal-description" placeholder="Meal Description">
+        <input type="text" id="meal-image" placeholder="Meal Image URL">
+        <select id="menu-name">
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+            <option value="dessert">Dessert</option>
+            <option value="drinks">Drinks</option>
+        </select>
+        <button id="add-meal-button">Add Meal</button>
+    </div>
+    <!-- Edit Meal Container -->
+    <div class="edit-item-container">
+        <input type="text" id="edit-meal-name" placeholder="Edit Meal Name">
+        <input type="text" id="edit-meal-description" placeholder="Edit Meal Description">
+        <input type="text" id="edit-meal-image" placeholder="Edit Meal Image URL">
+        <button id="update-meal-button">Update Meal</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

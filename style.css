@@ -1,0 +1,148 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('images/taylor-kiser-6RJct18G_3I-unsplash.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #292727;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 20px 0 30px;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(45deg, rgb(236, 252, 10), rgb(209, 18, 59));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background 0.5s ease, text-shadow 0.5s ease;
+}
+
+h1:hover {
+  background: linear-gradient(45deg, #a0f, #f79);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+#menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-details h2 {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  color: #4CAF50;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+}
+
+.menu-details ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-details ul li {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-details ul li img {
+  width: 50px; /* Adjust width as needed */
+  height: 75px; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop image to fit container */
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+button {
+  padding: 15px 25px;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.back-button {
+  background-color: #f44336;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  margin-top: 20px;
+}
+
+.add-item-container, .edit-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+}
+
+.add-item-container input, .edit-item-container input, .add-item-container select {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #8f1c1c;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(223, 178, 178, 0.8);
+  color: #333;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+}

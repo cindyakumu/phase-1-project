@@ -1,0 +1,72 @@
+{
+  "breakfast": [
+    {
+      "name": "pancakes",
+      "description": "Fluffy pancakes served with syrup.",
+      "image": "https://example.com/images/pancakes.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Omelette",
+      "description": "Cheese omelette with vegetables.",
+      "image": "https://example.com/images/omelette.jpg"
+    }
+  ],
+  "lunch": [
+    {
+      "id": "1",
+      "name": "Caesar Salad",
+      "description": "Crispy romaine lettuce with Caesar dressing.",
+      "image": "https://example.com/images/caesar-salad.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Grilled Cheese Sandwich",
+      "description": "Cheddar cheese melted between two slices of bread.",
+      "image": "https://example.com/images/grilled-cheese.jpg"
+    }
+  ],
+  "dinner": [
+    {
+      "id": "1",
+      "name": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta with a rich meat sauce.",
+      "image": "https://example.com/images/spaghetti.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Chicken Curry",
+      "description": "Spicy chicken curry with rice.",
+      "image": "https://example.com/images/chicken-curry.jpg"
+    }
+  ],
+  "dessert": [
+    {
+      "id": "1",
+      "name": "Chocolate Cake",
+      "description": "Rich chocolate cake with frosting.",
+      "image": "https://example.com/images/chocolate-cake.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Apple Pie",
+      "description": "Homemade apple pie with a flaky crust.",
+      "image": "https://example.com/images/apple-pie.jpg"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "1",
+      "name": "Lemonade",
+      "description": "Freshly squeezed lemonade.",
+      "image": "https://example.com/images/lemonade.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Coffee",
+      "description": "Hot brewed coffee.",
+      "image": "https://example.com/images/coffee.jpg"
+    }
+  ]
+}
